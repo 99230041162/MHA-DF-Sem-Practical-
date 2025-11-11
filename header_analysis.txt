@@ -1,0 +1,10 @@
+Email Header Analysis:
+
+From: hodcse@klu.ac.in
+Received: from mail-sor-f41.google.com (209.85.220.69)
+SPF: pass
+DKIM: fail
+DMARC: pass
+
+Conclusion:
+The email came from KLU’s official Google Workspace server, so it is genuine and not spoofed.
