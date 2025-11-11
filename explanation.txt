@@ -1,0 +1,14 @@
+SPF (Sender Policy Framework)
+- Checks if the email is sent from an authorized server for that domain.
+
+DKIM (DomainKeys Identified Mail)
+- Adds a digital signature to verify the email content is not changed.
+
+DMARC (Domain-based Message Authentication, Reporting and Conformance)
+- Combines SPF and DKIM results to detect fake or spoofed emails.
+
+Result:
+SPF = PASS
+DKIM = FAIL (minor changes due to forwarding)
+DMARC = PASS
+Hence, the email is NOT spoofed.
